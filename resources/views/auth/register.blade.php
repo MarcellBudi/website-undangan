@@ -5,7 +5,6 @@
     
     <form class="w-1/2 bg-orange-200 shadow-xl rounded px-8 pt-6 pb-8 mb-4 mt-10 flex flex-col space-y-6" method="POST" action="{{ route('register') }}">
         @csrf
-        <h1 class=" text-xl text-center my-10 font-bold">Welcum To Register Page!!!</h1>
         <div>
             <label class="block text-grey-darker text-sm font-bold mb-2 @error('name') text-red-500 @enderror" for="name">
             {{ __('Nama') }}
