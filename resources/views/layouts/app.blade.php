@@ -20,8 +20,10 @@
 </head>
 <body>
     <div id="app">
-        @include('includes.navbar')
-        <main>
+        <header class="shadow-xl w-full fixed top-0">
+            @include('includes.navbar')
+        </header>
+        <main class="mt-20">
             @yield('content')
         </main>
     </div>
