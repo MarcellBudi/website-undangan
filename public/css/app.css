@@ -638,6 +638,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-0 {
   margin-bottom: 0px;
 }
+.mb-28 {
+  margin-bottom: 7rem;
+}
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .block {
   display: block;
 }
@@ -1157,6 +1169,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pr-16 {
   padding-right: 4rem;
 }
+.pb-20 {
+  padding-bottom: 5rem;
+}
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1314,6 +1338,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-blue-300 {
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);

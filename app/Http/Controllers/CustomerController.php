@@ -409,8 +409,7 @@ class CustomerController extends Controller
     public function hapus($user_id, $pengantin_id) {
         if ($user_id == Auth::user()->id) {
             $data_pengantin = Pengantin::find($pengantin_id);
-            $data_gambara = Gambar::find($pengantin_id);
-            $data_gambar = Gambar::where(['id_pengantin' => $pengantin_id])->get();
+            $data_gambar = Gambar::where('id_pengantin', $pengantin_id)->get();
             // dd($data_gambar);
             foreach ($data_gambar as $key => $g) {
                 if (file_exists($data_gambar[$key]->path)) {

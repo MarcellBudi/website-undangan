@@ -8,14 +8,14 @@
         </h1>
     </div>
     <div class="md:col-span-3 flex justify-center p-10 bg-blue-200">
-        <form class="w-full shadow-xl rounded px-8 flex flex-col bg-white" method="POST" action="{{ route('login') }}">
+        <form class="w-full shadow-xl rounded px-8 flex flex-col bg-white pt-5" method="POST" action="{{ route('login') }}">
             <h1 class="text-center font-bold text-lg py-4 border-b-2">Login</h1>
             @csrf
             <div class="py-4 mb-4">
             <label class="block text-grey-darker text-sm font-bold mb-2" for="email">
             {{ __('E-Mail Address') }}
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email" type="email" placeholder="Email anda" name="email">
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="email" type="email" placeholder="Email Anda" name="email">
             @error('email')
                 <span class="invalid-feedback" role="alert">
                     <strong>{{ $message }}</strong>
@@ -26,7 +26,7 @@
                 <label class="block text-grey-darker text-sm font-bold mb-2" for="password">
                 {{ __('Password') }}
                 </label>
-                <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="*****" name="password">
+                <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="********" name="password">
 
                 @error('password')
                     <span class="invalid-feedback" role="alert">

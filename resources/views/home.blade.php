@@ -117,7 +117,7 @@
                 </span>
                 <h1 class="text-2xl font-semibold capitalize text-black">Buat Undangan</h1>
                 <p class="text-gray-500 dark:text-gray-500">
-                    Buat undangan Anda dengan Judul Acara, Nama Pengantin Pria dan Wanita, Orang Tua Pengantin Pria dan Wanita, Alamat Acara, Tanggal Acara, Pilih Tema, Link Lokasi Google Maps, Link Video Prewedding, Foto Utama, dan Foto Gallery.
+                    Buat undangan Anda dengan Judul Acara, Nama Pengantin Pria dan Wanita, Orang Tua Pengantin Pria dan Wanita, Alamat Acara, Tanggal Acara, Pilih Tema, Link Lokasi Google Maps, Link Video Prewedding, Foto Utama, dan Foto Gallery
                 </p>
                 <a href="#" class="inline-flex p-2 text-blue-500 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full dark:bg-blue-500 dark:text-white hover:underline hover:text-white dark:hover:text-gray-300">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

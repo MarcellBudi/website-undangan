@@ -3,6 +3,7 @@
 @section('content')
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="flex flex-col container mx-auto py-5">
+  @if (count($pengantin) > 0)
   <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
     <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
       <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -141,6 +142,14 @@
       </div>
     </div>
   </div>
+  @else
+  <div class="py-5 text-center">
+    Ups, anda belum membuat undangan apapun 
+    <a href="{{ route('create-invitation', Auth::user()->id) }}" class="underline text-blue-600">
+      Buat Sekarang
+    </a>
+  </div>
+  @endif
 </div>
 
 @endsection
