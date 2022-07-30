@@ -635,20 +635,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-52 {
   margin-top: 13rem;
 }
-.mb-0 {
-  margin-bottom: 0px;
-}
-.mb-28 {
-  margin-bottom: 7rem;
-}
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
 .mb-9 {
   margin-bottom: 2.25rem;
 }
-.mb-10 {
-  margin-bottom: 2.5rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 .block {
   display: block;
@@ -1145,14 +1136,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pr-12 {
   padding-right: 3rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pt-1 {
+  padding-top: 0.25rem;
+}
 .pb-8 {
   padding-bottom: 2rem;
 }
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-.pt-1 {
-  padding-top: 0.25rem;
 }
 .pr-2 {
   padding-right: 0.5rem;
@@ -1168,18 +1162,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .pr-16 {
   padding-right: 4rem;
-}
-.pb-20 {
-  padding-bottom: 5rem;
-}
-.pb-7 {
-  padding-bottom: 1.75rem;
-}
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 .text-left {
   text-align: left;

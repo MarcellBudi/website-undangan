@@ -41,8 +41,8 @@ class CustomerController extends Controller
         $user_id = Auth::user()->id;
 
         $slug = \Str::slug($request->judul_acara);
-        $is_slug_taken = DB::table('tb_pengantin')->where('slug', $slug)->get();
 
+        $is_slug_taken = DB::table('tb_pengantin')->where('slug', $slug)->get();
         if (count($is_slug_taken) > 0) {
             return redirect()->back();
         }
